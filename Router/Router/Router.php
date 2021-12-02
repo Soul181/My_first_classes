@@ -3,9 +3,9 @@
 class Router {
 	// property declaration
 	private $routes = [ "/" => '/main/homepage.php', 
-						"/home" => '/main/homepage.php',
-						"/homepage" => '/main/homepage.php',
-						"/about" => '/main/about.php'];
+			    "/home" => '/main/homepage.php',
+			    "/homepage" => '/main/homepage.php',
+		  	    "/about" => '/main/about.php'];
 	
 	private $route = $_SERVER['REQUEST_URI']; 
 	
